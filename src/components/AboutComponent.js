@@ -48,33 +48,25 @@ function About(props) {
             </div>
             <div className="row row-content">
                 <div className="col-12 col-md-6">
-                    <h2>Our History</h2>
-                    <p>Sdfdljfkd.</p>
-                    <p>Restaurant, establishment where refreshments or meals may be procured by the public. The public dining room that came ultimately to be known as the restaurant originated in France, and the French have continued to make major contributions to the restaurant’s development.<em>one A. Boulanger</em>The first restaurant proprietor is believed to have been one A. Boulanger, a soup vendor, who opened his business in Paris in 1765.</p>
+                    <h2>Orange</h2>
+                  
+                    <p>Orange is a recipe & travel blog.
+                        
+Interested in working with us? Occasionally we create sponsored posts for brands that are a good fit. We’re also available for recipe development & photography. </p>
+<p>Send us a quick  <a href="mailto:safia.02202@gmail.com">email </a>  for more info!</p>
+
+
                 </div>
                 <div className="col-12 col-md-5">
-                    <Card>
-                        <CardHeader className="bg-primary text-white">Facts At a Glance</CardHeader>
-                        <CardBody>
-                            <dl className="row p-1">
-                                <dt className="col-6">Started</dt>
-                                <dd className="col-6">3 Feb. 2013</dd>
-                                <dt className="col-6">Major Stake Holder</dt>
-                                <dd className="col-6"> Fine Foods Inc.</dd>
-                                <dt className="col-6">Last Year's Turnover</dt>
-                                <dd className="col-6">$1,250,375</dd>
-                                <dt className="col-6">Employees</dt>
-                                <dd className="col-6">40</dd>
-                            </dl>
-                        </CardBody>
-                    </Card>
-                </div>
+                    <img src='/assets/images/travel.jpeg' alt="travel"></img>
+                </div> 
+                
                 <div className="col-12">
                     <Card>
                         <CardBody className="bg-faded">
                             <blockquote className="blockquote">
-                                <p className="mb-0">the pizza </p>
-                                <footer className="blockquote-footer">Vejus
+                                <p className="mb-0">Orange </p>
+                                <footer className="blockquote-footer">  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Have A Fun Life.
                                 <cite title="Source Title">The good life being</cite>
                                 </footer>
                             </blockquote>
@@ -84,7 +76,7 @@ function About(props) {
             </div>
             <div className="row row-content">
                 <div className="col-12">
-                    <h2>Corporate Leadership</h2>
+                    <h2>Author</h2>
                 </div>
                 <div className="col-12">
                     <Media list>

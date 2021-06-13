@@ -80,7 +80,7 @@ import { Loading } from './LoadingComponent';
         else if (props.dish != null) {
             return(
                 <div className="container">
-                    <div className="row">
+                    <div className="row ">
                         <Breadcrumb>
                             <BreadcrumbItem>
                                 <Link to="/menu">Menu</Link>
@@ -92,7 +92,7 @@ import { Loading } from './LoadingComponent';
                             <hr />
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row ">
                             <RenderDish dish={props.dish} />
                             <RenderComments 
                                 comments={props.comments}

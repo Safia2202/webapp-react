@@ -122,11 +122,11 @@ class Contact extends Component {
                                      />
                                 </Col>
                             </Row>
-                            <Row className="form-group">
+                            {/*<Row className="form-group">
                                 <Col md={{size: 6, offset: 2}}>
                                     <div className="form-check">
                                         <Label check>
-                                            <Control.checkbox model=".agree" name="agree"
+                                             <Control.checkbox model=".agree" name="agree"
                                                 className="form-check-input"
                                                  /> {' '}
                                                 <strong>May we contact you?</strong>
@@ -140,7 +140,7 @@ class Contact extends Component {
                                         <option value="Tel">Email</option>
                                     </Control.select>
                                 </Col>
-                            </Row>
+                            </Row> */}
                             <Row className="form-group">
                                 <Label htmlFor="message" md={2}>Your Feedback</Label>
                                 <Col md={10}>

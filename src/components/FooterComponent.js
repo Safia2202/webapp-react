@@ -16,13 +16,14 @@ function Footer(props) {
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
-                    <h5>Our Address</h5>
+                    <h5>Address</h5>
                     <address>
-		              12134 Tokyo<br />
-		              <i className="fa fa-phone fa-lg"></i>: +12345678<br />
-		              <i className="fa fa-fax fa-lg"></i>: +12345678<br />
-		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">
-                         confusion@food.net</a>
+		              Tokyo<br />
+		              <i className="fa fa-phone fa-lg"></i>Tel: 07044710607<br />
+		              {/* <i className="fa fa-fax fa-lg"></i>: +12345678<br /> */}
+		        
+                         <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:safia.02202@gmail.com">
+                         safia.02202@gmail.com</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">
@@ -32,7 +33,7 @@ function Footer(props) {
                         <a className="btn btn-social-icon btn-linkedin" href="#"><i className="fa fa-linkedin"></i></a>
                         <a className="btn btn-social-icon btn-twitter" href="#"><i className="fa fa-twitter"></i></a>
                         <a className="btn btn-social-icon btn-google" href="#"><i className="fa fa-youtube"></i></a>
-                        <a className="btn btn-social-icon" href="mailto:abc@gmail.com"><i className="fa fa-envelope-o"></i></a>
+                        <a className="btn btn-social-icon" href="mailto:safia.02202@gmail.com"><i className="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>

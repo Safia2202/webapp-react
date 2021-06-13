@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Card, CardImg, CardImgOverlay,
+import { Card, CardImg, CardImgOverlay, CardBody, CardSubtitle,
     CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Loading } from './LoadingComponent';
@@ -11,9 +11,12 @@ import { Loading } from './LoadingComponent';
             <Card>
                 <Link to={`/menu/${dish.id}`} >
                     <CardImg width="100%" src={dish.image} alt={dish.name} />
-                    <CardImgOverlay>
+                    <CardBody>
                         <CardTitle>{dish.name}</CardTitle>
-                    </CardImgOverlay>
+                        <CardSubtitle>Category: {dish.category}</CardSubtitle>
+                        {/* <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                        <Button>Button</Button>  */}
+                    </CardBody>
                 </Link>
             </Card>
         );
@@ -54,12 +57,12 @@ import { Loading } from './LoadingComponent';
             return(
                 <div className="container">
                     <div className="row">
-                        <Breadcrumb>
-                            <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                            <BreadcrumbItem active>Menu</BreadcrumbItem>
-                        </Breadcrumb>
+                        {/* <Breadcrumb>
+                            <BreadcrumbItem><Link to="/Menu">Home</Link></BreadcrumbItem>
+                            {/* <BreadcrumbItem active>Menu</BreadcrumbItem> *
+                        </Breadcrumb> */}
                         <div className="col-12">
-                            <h3>Menu</h3>
+                            <h3>Collection</h3>
                             <hr />
                         </div>
                     </div>

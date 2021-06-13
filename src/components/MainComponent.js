@@ -42,17 +42,17 @@ class Main extends Component {
 
     
     
-    const HomePage = () => {
-      return(
-        <Home 
-          dish={this.props.dishes.dishes.filter((dish) => dish.featured)[0]}
-          dishesLoading={this.props.dishes.isLoading}
-          dishesErrMess={this.props.dishes.errMess}
-          promotion={this.props.promotions.filter((promo) => promo.featured)[0]}
-          leader={this.props.leaders.filter((leader) => leader.featured)[0]}
-        />
-      );
-    }
+    // const HomePage = () => {
+    //   return(
+    //     <Home 
+    //       dish={this.props.dishes.dishes.filter((dish) => dish.featured)[0]}
+    //       dishesLoading={this.props.dishes.isLoading}
+    //       dishesErrMess={this.props.dishes.errMess}
+    //       promotion={this.props.promotions.filter((promo) => promo.featured)[0]}
+    //       leader={this.props.leaders.filter((leader) => leader.featured)[0]}
+    //     />
+    //   );
+    // }
             
     const DishWithId = ({match}) => {
       return(
@@ -70,12 +70,12 @@ class Main extends Component {
         <Header />
         <div>
           <Switch>
-              <Route path='/home' component={HomePage} />
+              {/* <Route path='/home' component={HomePage} /> */}
               <Route exact path='/aboutus' component={() => <About leaders={this.props.leaders} />} />} />
               <Route exact path='/menu' component={() => <Menu dishes={this.props.dishes} />} />
               <Route path='/menu/:dishId' component={DishWithId} />
               <Route exact path='/contactus' component={Contact} />} />
-              <Redirect to="/home" />
+              <Redirect to="/menu" />
           </Switch>
         </div>
         <Footer />

@@ -2,7 +2,7 @@ export const PROMOTIONS = [
   {
     id: 0,
     name: 'Buffet',
-    image: '/assets/images/buffet.png',
+    image: '/assets/images/download.jpeg',
     label: 'New',
     price: '19.99',
     featured: true,
